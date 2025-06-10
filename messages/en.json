@@ -1,0 +1,37 @@
+{
+  "Header": {
+    "logo": "ACS Automations",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "company": "About ACS Automations",
+    "description": "Leading provider of PLC, SCADA, HMI, and automation solutions in Saudi Arabia.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "address": "Riyadh, Saudi Arabia",
+    "phone": "+966 123 456 789",
+    "email": "info@acsautomations.com",
+    "rights": "All rights reserved."
+  },
+  "Home": {
+    "heroTitle": "Welcome to ACS Automations",
+    "heroSubtitle": "Your trusted partner for advanced automation solutions in Saudi Arabia.",
+    "contactUs": "Contact Us",
+    "servicesTitle": "Our Services",
+    "service1Title": "PLC Programming",
+    "service1Description": "Customized PLC programming for industrial automation.",
+    "service2Title": "SCADA Systems",
+    "service2Description": "Advanced SCADA solutions for real-time monitoring and control.",
+    "service3Title": "HMI Development",
+    "service3Description": "User-friendly HMI interfaces for seamless operation.",
+    "projectsDone": "Projects Done",
+    "partners": "Partners",
+    "clients": "Clients"
+  }
+}

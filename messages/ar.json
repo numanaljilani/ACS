@@ -1,0 +1,37 @@
+{
+  "Header": {
+    "logo": "إيه سي إس للأتمتة",
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "الخدمات",
+    "contact": "اتصل بنا"
+  },
+  "Footer": {
+    "company": "حول إيه سي إس للأتمتة",
+    "description": "المزود الرائد لحلول PLC وSCADA وHMI والأتمتة في المملكة العربية السعودية.",
+    "quickLinks": "روابط سريعة",
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "الخدمات",
+    "contact": "اتصل بنا",
+    "address": "الرياض، المملكة العربية السعودية",
+    "phone": "789 456 123 966+",
+    "email": "info@acsautomations.com",
+    "rights": "جميع الحقوق محفوظة."
+  },
+  "Home": {
+    "heroTitle": "مرحبًا بكم في إيه سي إس للأتمتة",
+    "heroSubtitle": "شريككم الموثوق لحلول الأتمتة المتقدمة في المملكة العربية السعودية.",
+    "contactUs": "اتصل بنا",
+    "servicesTitle": "خدماتنا",
+    "service1Title": "برمجة PLC",
+    "service1Description": "برمجة PLC مخصصة للأتمتة الصناعية.",
+    "service2Title": "أنظمة SCADA",
+    "service2Description": "حلول SCADA المتقدمة للمراقبة والتحكم في الوقت الحقيقي.",
+    "service3Title": "تطوير HMI",
+    "service3Description": "واجهات HMI سهلة الاستخدام للتشغيل السلس.",
+    "projectsDone": "المشاريع المنجزة",
+    "partners": "الشركاء",
+    "clients": "العملاء"
+  }
+}
