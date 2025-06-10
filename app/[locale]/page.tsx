@@ -1,6 +1,7 @@
 "use client"
 import { useTranslations } from 'next-intl';
 import Stats from '../../components/Stats';
+import Link from 'next/link';
 
 export default function Home() {
   const t = useTranslations('Home');
@@ -16,12 +17,12 @@ export default function Home() {
             {t('heroSubtitle')}
           </p>
           <Stats />
-          <a
+          <Link
             href="/contact"
             className="mt-8 inline-block bg-acsDark text-white py-2 px-4 rounded hover:bg-green-800 animate__animated animate__bounceIn animate__delay-5s"
           >
             {t('contactUs')}
-          </a>
+          </Link>
         </div>
       </section>
       <section className="py-16">
