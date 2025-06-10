@@ -3,14 +3,19 @@ import { notFound } from "next/navigation";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "../globals.css";
+import { ReactNode } from "react";
 
+
+type Props = {
+  children: ReactNode;
+  params: {
+    locale: string;
+  };
+};
 export default async function LocaleLayout({
   children,
   params: { locale },
-}: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
+}:Props) {
   let messages;
   try {
     messages = (await import(`../../messages/${locale}.json`)).default;
