@@ -18,6 +18,8 @@ export default function Contact() {
     let valid = true;
     const newErrors = { name: '', email: '', message: '' };
 
+
+
     if (!formData.name.trim()) {
       newErrors.name = t('nameError');
       valid = false;
