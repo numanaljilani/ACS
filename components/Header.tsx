@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { useState }  from 'react';
 
-export default function Header() {
+export default function Header({locale}: {locale : string}) {
   const t = useTranslations('Header');
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
@@ -22,9 +22,9 @@ export default function Header() {
         </Link>
         <nav className="hidden md:flex space-x-4">
           <Link href="/" className="hover:text-gray-200">{t('home')}</Link>
-          <Link href="/about" className="hover:text-gray-200">{t('about')}</Link>
-          <Link href="/services" className="hover:text-gray-200">{t('services')}</Link>
-          <Link href="/contact" className="hover:text-gray-200">{t('contact')}</Link>
+          <Link href={`/${locale}/about`} className="hover:text-gray-200">{t('about')}</Link>
+          <Link href={`/${locale}/services`} className="hover:text-gray-200">{t('services')}</Link>
+          <Link href={`/${locale}/contact`} className="hover:text-gray-200">{t('contact')}</Link>
         </nav>
         <div className="flex items-center space-x-4">
           <select
